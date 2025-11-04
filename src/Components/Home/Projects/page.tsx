@@ -1,6 +1,7 @@
 "use client"
 import { Autoplay } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
+import type { SwiperRef } from "swiper/react"
 import React, { useRef } from "react"
 import "swiper/css"
 import { projects } from "@/app/api/data";
@@ -9,7 +10,7 @@ import { Icon } from "@iconify/react"
 import Image from "next/image"
 
 const Projects: React.FC = () => {
-    const swiperRef = useRef<{ autoplay?: { stop: () => void; start: () => void } }>(null);
+    const swiperRef = useRef<SwiperRef>(null);
 
     return (
         <section className="bg-gradient-to-br from-slate-50 to-green-50 overflow-hidden py-16 lg:py-20">
@@ -36,8 +37,8 @@ const Projects: React.FC = () => {
                 <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-slate-50 to-transparent z-10 pointer-events-none"></div>
 
                 <div
-                    onMouseEnter={() => swiperRef.current?.autoplay?.stop()}
-                    onMouseLeave={() => swiperRef.current?.autoplay?.start()}
+                    onMouseEnter={() => swiperRef.current?.swiper?.autoplay?.stop()}
+                    onMouseLeave={() => swiperRef.current?.swiper?.autoplay?.start()}
                 >
                     <Swiper
                         ref={swiperRef}
