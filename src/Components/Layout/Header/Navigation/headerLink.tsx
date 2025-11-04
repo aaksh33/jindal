@@ -51,7 +51,7 @@ const HeaderLink: React.FC<{ item: HeaderItem }> = ({ item }) => {
 
             {item.submenu && (
                 <div className="absolute left-0 top-full mt-2 w-60 bg-white rounded-lg shadow-xl border border-gray-100 overflow-hidden opacity-0 scale-95 invisible group-hover:opacity-100 group-hover:scale-100 group-hover:visible transition-all duration-300 z-50">
-                    {item.submenu.map((subItem: any, index: number) => (
+                    {item.submenu.map((subItem: { href: string; label: string }, index: number) => (
                         <Link key={index}
                             href={subItem.href}
                             className={`block px-4 py-3 text-sm transition-colors ${
