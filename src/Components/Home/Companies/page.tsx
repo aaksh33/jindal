@@ -1,12 +1,13 @@
 "use client"
 import { Autoplay } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
+import type { SwiperRef } from "swiper/react"
 import React, { useRef } from "react"
 import "swiper/css"
 import { partnersData } from "@/app/api/data";
 
 const Companies: React.FC = () => {
-    const swiperRef = useRef<{ autoplay?: { stop: () => void; start: () => void } }>(null);
+    const swiperRef = useRef<SwiperRef>(null);
     const duplicatedData = [...partnersData, ...partnersData, ...partnersData];
     
     return (
