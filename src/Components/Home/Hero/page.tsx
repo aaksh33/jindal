@@ -129,7 +129,7 @@ const Hero: React.FC = () => {
             >
                 <Icon icon="tabler:leaf" width="60" height="60" className='text-green-400'/>
                 <p className="text-white mt-3 mb-6 text-base">
-                    Committed to powering India's sustainable growth through advanced clean energy technologies.
+                    Committed to powering India&apos;s sustainable growth through advanced clean energy technologies.
                 </p>
                 <div className="text-6xl font-bold text-green-300 font-unbounded">
                     <span>500</span><span className="text-green-400">MW</span>+

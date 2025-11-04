@@ -17,7 +17,7 @@ const Commitment: React.FC = () => {
                                 Why Choose Jindal
                             </span>
                             <h2 className="mt-4 font-chakrapetch lg:text-35 font-semibold">
-                                Leading India's Clean Energy Revolution with Innovative Solar and Wind Solutions for Sustainable Future
+                                Leading India&apos;s Clean Energy Revolution with Innovative Solar and Wind Solutions for Sustainable Future
                             </h2>
                         </div>
 

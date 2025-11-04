@@ -70,10 +70,10 @@ export default function BlogDetails() {
                                 </p>
                                 
                                 <h2 className="text-2xl font-bold text-gray-800 mb-4 font-chakrapetch">
-                                    India's Solar Revolution
+                                    India&apos;s Solar Revolution
                                 </h2>
                                 <p className="text-gray-600 mb-6 leading-relaxed">
-                                    India's solar energy sector has witnessed unprecedented growth in recent years, driven by ambitious government policies, declining technology costs, and increasing environmental awareness. The National Solar Mission, launched as part of the National Action Plan on Climate Change, aims to establish India as a global leader in solar energy.
+                                    India&apos;s solar energy sector has witnessed unprecedented growth in recent years, driven by ambitious government policies, declining technology costs, and increasing environmental awareness. The National Solar Mission, launched as part of the National Action Plan on Climate Change, aims to establish India as a global leader in solar energy.
                                 </p>
                                 
                                 <h3 className="text-xl font-bold text-gray-800 mb-4 font-chakrapetch">
@@ -96,7 +96,7 @@ export default function BlogDetails() {
                                 
                                 <div className="bg-prim/5 border-l-4 border-prim p-6 rounded-r-lg mb-6">
                                     <p className="text-gray-700 italic">
-                                        "Solar energy is not just an alternative; it's the future of sustainable power generation in India. The convergence of policy support, technological advancement, and economic viability makes this the perfect time for solar adoption."
+                                        &quot;Solar energy is not just an alternative; it&apos;s the future of sustainable power generation in India. The convergence of policy support, technological advancement, and economic viability makes this the perfect time for solar adoption.&quot;
                                     </p>
                                     <p className="text-prim font-semibold mt-2">- {currentBlog.author}, Solar Energy Expert</p>
                                 </div>
@@ -105,7 +105,7 @@ export default function BlogDetails() {
                                     Future Outlook
                                 </h3>
                                 <p className="text-gray-600 mb-6 leading-relaxed">
-                                    Looking ahead, India's solar sector is poised for exponential growth. The integration of energy storage solutions, smart grid technologies, and innovative financing models will further accelerate adoption. By 2030, solar energy is expected to play a pivotal role in India's energy security and climate commitments.
+                                    Looking ahead, India&apos;s solar sector is poised for exponential growth. The integration of energy storage solutions, smart grid technologies, and innovative financing models will further accelerate adoption. By 2030, solar energy is expected to play a pivotal role in India&apos;s energy security and climate commitments.
                                 </p>
                             </div>
                             

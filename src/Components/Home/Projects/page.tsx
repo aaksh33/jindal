@@ -22,7 +22,7 @@ const Projects: React.FC = () => {
                         </span>
                     </div>
                     <h2 className="text-3xl lg:text-5xl font-bold text-gray-800 mb-4">
-                        Transforming India's <span className="text-green-600">Energy Landscape</span>
+                        Transforming India&apos;s <span className="text-green-600">Energy Landscape</span>
                     </h2>
                     <p className="text-gray-600 max-w-2xl mx-auto">
                         Discover our flagship renewable energy projects that are making a real difference across India

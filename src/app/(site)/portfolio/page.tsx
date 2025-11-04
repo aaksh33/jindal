@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import HeroSub from "@/Components/SharedComponents/HeroSub";
 import { Icon } from "@iconify/react";
 import { projects } from "@/app/api/data";
@@ -25,7 +26,7 @@ export default function Page() {
                         Our Renewable Energy Projects
                     </h1>
                     <p className="text-white/90 mt-4 text-lg lg:text-xl max-w-3xl mx-auto leading-relaxed">
-                        Explore our portfolio of successful renewable energy installations and see how we're powering India's sustainable future.
+                        Explore our portfolio of successful renewable energy installations and see how we&apos;re powering India&apos;s sustainable future.
                     </p>
                     <Link
                         href="#portfolio-grid"
@@ -48,9 +49,11 @@ export default function Page() {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {projects.map((project, index) => (
                             <div key={project.id} className={`rounded-lg shadow-lg overflow-hidden group relative h-[400px] ${index === 0 ? 'lg:col-span-2' : ''}`}>
-                                <img 
+                                <Image 
                                     src={project.image} 
                                     alt={project.title} 
+                                    width={600}
+                                    height={400}
                                     className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                                 />
                                 <div className="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition-colors duration-300"></div>

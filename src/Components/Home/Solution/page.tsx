@@ -24,7 +24,7 @@ const Solution: React.FC = () => {
                                 </span>
                             </div>
                             <h2 className="text-3xl lg:text-5xl font-bold text-gray-800 leading-tight">
-                                Powering India's <span className="text-green-600">Sustainable Future</span>
+                                Powering India&apos;s <span className="text-green-600">Sustainable Future</span>
                             </h2>
                             <p className="text-gray-600 mt-4 max-w-2xl">
                                 Leading the renewable energy revolution with innovative solar, wind, and clean energy solutions for homes, businesses, and industries.

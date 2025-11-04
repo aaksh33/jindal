@@ -3,7 +3,7 @@ import Image from "next/image";
 import Hero from "@/Components/Home/Hero/page";
 import Solution from "@/Components/Home/Solution/page";
 import Companies from "@/Components/Home/Companies/page";
-import Commitment from "@/Components/Home/Commitment";
+import Commitment from "@/Components/Home/Commitment/page";
 import Process from "@/Components/Home/Process/page";
 import Projects from "@/Components/Home/Projects/page";
 import Testimonials from "@/Components/Home/Testimonials/page";

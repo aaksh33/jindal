@@ -149,7 +149,7 @@ export default function PortfolioDetails() {
                                     Our Project Results and Environmental Impact
                                 </h2>
                                 <p className="text-gray-600 mb-6 leading-relaxed">
-                                    The successful completion of the Rajasthan Solar Park has delivered exceptional results for India&apos;s renewable energy sector. The facility generates 500 GWh of clean electricity annually, powering over 200,000 homes and significantly contributing to the nation's carbon reduction goals.
+                                    The successful completion of the Rajasthan Solar Park has delivered exceptional results for India&apos;s renewable energy sector. The facility generates 500 GWh of clean electricity annually, powering over 200,000 homes and significantly contributing to the nation&apos;s carbon reduction goals.
                                 </p>
                                 <p className="text-gray-600 mb-6 leading-relaxed">
                                     Through innovative engineering and strategic implementation, we achieved remarkable environmental benefits including 400,000 tons of CO2 emission reduction annually, created 500+ local jobs, and established a model for future large-scale solar installations across India.

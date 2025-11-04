@@ -19,7 +19,7 @@ const Team: React.FC<TeamProps> = ({ limit }) => {
                     </span>
 
                     <h2 className="w-full mx-auto lg:w-3/4 mt-4 font-chakrapetch lg:text-[35px] font-semibold">
-                        Expert Team Driving India's Clean Energy Revolution
+                        Expert Team Driving India&apos;s Clean Energy Revolution
                     </h2>
                 </div>
                 <div className="team-wrapper grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-8 mt-8">

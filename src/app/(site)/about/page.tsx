@@ -25,10 +25,10 @@ const About: React.FC = () => {
             Clean Energy Leaders
           </span>
           <h1 className="text-white mt-6 font-chakrapetch text-4xl lg:text-6xl font-bold leading-tight">
-            Powering India's Sustainable Future
+            Powering India&apos;s Sustainable Future
           </h1>
           <p className="text-white/90 mt-4 text-lg lg:text-xl max-w-3xl mx-auto leading-relaxed">
-            With over 15 years of expertise in renewable energy, we've installed 500+ MW of clean energy capacity across India, helping businesses and communities transition to sustainable power solutions.
+            With over 15 years of expertise in renewable energy, we&apos;ve installed 500+ MW of clean energy capacity across India, helping businesses and communities transition to sustainable power solutions.
           </p>
           <Link
             href="/contact"
@@ -131,10 +131,10 @@ const About: React.FC = () => {
               </span>
 
               <h2 className="w-full lg:w-3/4 mt-4 font-chakrapetch text-2xl lg:text-4xl font-semibold text-gray-800 leading-tight">
-                Building India's Clean Energy Infrastructure
+                Building India&apos;s Clean Energy Infrastructure
               </h2>
               <p className="text-gray-600 mt-4 text-lg leading-relaxed">
-                Since 2009, Jindal Renewable Energy has been at the forefront of India's clean energy revolution, delivering innovative solar and wind solutions that power sustainable growth across the nation.
+                Since 2009, Jindal Renewable Energy has been at the forefront of India&apos;s clean energy revolution, delivering innovative solar and wind solutions that power sustainable growth across the nation.
               </p>
 
               {/* Boxes Container */}
@@ -145,7 +145,7 @@ const About: React.FC = () => {
                     Our Mission
                   </h4>
                   <p className="pb-5 text-gray-700 leading-relaxed">
-                    To accelerate India's transition to renewable energy by providing reliable, efficient, and cost-effective clean energy solutions for all.
+                    To accelerate India&apos;s transition to renewable energy by providing reliable, efficient, and cost-effective clean energy solutions for all.
                   </p>
                   <ul className="space-y-3">
                     <li className="flex items-center gap-3 font-medium text-gray-700">
@@ -184,7 +184,7 @@ const About: React.FC = () => {
                     Our Vision
                   </h4>
                   <p className="pb-5 text-gray-700 leading-relaxed">
-                    To be India's most trusted renewable energy partner, leading the transformation towards a sustainable and energy-secure future.
+                    To be India&apos;s most trusted renewable energy partner, leading the transformation towards a sustainable and energy-secure future.
                   </p>
                   <ul className="space-y-3">
                     <li className="flex items-center gap-3 font-medium text-gray-700">
