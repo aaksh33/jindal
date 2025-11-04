@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../Logo";
+import Logo from "../Logo/page";
 import { Icon } from "@iconify/react";
 import Link from "next/link";
 

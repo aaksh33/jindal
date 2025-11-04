@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Icon } from '@iconify/react';
 import { footerlinks } from "@/app/api/data";
-import Logo from '../Header/Logo';
+import Logo from '../Header/Logo/page';
 
 const Footer = () => {
     return (
@@ -49,7 +49,7 @@ const Footer = () => {
                                 <Logo />
                             </div>
                             <p className="text-[14px] leading-6 text-foottext text-left">
-                                Leading India's renewable energy revolution with innovative solar and wind solutions. Committed to providing clean, sustainable energy for homes, businesses, and industries nationwide.
+                                Leading India&apos;s renewable energy revolution with innovative solar and wind solutions. Committed to providing clean, sustainable energy for homes, businesses, and industries nationwide.
                             </p>
                             <div className="flex flex-wrap gap-3 items-center pt-5 ">
                                 <Image src="/images/footer/award-logo-1.webp" alt="award-logo-1" width={70} height={70} className="p-2 cursor-pointer bg-black" />

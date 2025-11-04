@@ -20,7 +20,7 @@ export default function page() {
               Get Solar Quote
             </span>
             <h1 className="text-white mt-6 font-chakrapetch text-4xl lg:text-6xl font-bold leading-tight">
-              Ready to Go Solar? Let's Connect
+              Ready to Go Solar? Let&apos;s Connect
             </h1>
             <p className="text-white/90 mt-4 text-lg lg:text-xl max-w-3xl mx-auto leading-relaxed">
               Get a free solar assessment and discover how much you can save with clean energy. Our experts are ready to design the perfect renewable energy solution for your needs.

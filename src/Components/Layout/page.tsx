@@ -1,12 +1,12 @@
 "use client";
 import React, { useRef, useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
-import Logo from "./Header/Logo";
+import Logo from "./Header/Logo/page";
 import { headerData } from "./Header/Navigation/menuData";
 import HeaderLink from "./Header/Navigation/headerLink";
 import Link from "next/link";
 import { Icon } from "@iconify/react";
-import Sidebar from "./Header/Sidebar";
+import Sidebar from "./Header/Sidebar/page";
 import MobileHeaderLink from "./Header/Navigation/mobileHeaderLinks";
 
 const Header: React.FC = () => {
@@ -62,7 +62,7 @@ const Header: React.FC = () => {
                 href="/contact"
                 className="hidden lg:flex items-center gap-2 px-6 py-3 rounded-full font-chakrapetch font-semibold transition-all duration-300 group bg-dark text-white hover:bg-prim"
               >
-                <span>Let's Talk</span>
+                <span>Let&apos;s Talk</span>
                 <Icon
                   icon="tabler:arrow-right"
                   width="20"
@@ -150,7 +150,7 @@ const Header: React.FC = () => {
             onClick={() => setNavbarOpen(false)}
             className="flex items-center justify-center gap-2 w-full bg-prim text-white py-3 px-6 rounded-full font-chakrapetch font-semibold transition-all duration-300 hover:bg-dark group"
           >
-            <span>Let's Talk</span>
+            <span>Let&apos;s Talk</span>
             <Icon
               icon="tabler:arrow-right"
               width="20"

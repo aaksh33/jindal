@@ -49,7 +49,7 @@ const MobileHeaderLink: React.FC<{ item: HeaderItem }> = ({ item }) => {
       {/* Submenu */}
       {item.submenu && submenuOpen && (
         <div className="ml-4 mt-2 space-y-1">
-          {item.submenu.map((subItem: any, index: number) => (
+          {item.submenu.map((subItem: { href: string; label: string }, index: number) => (
             <Link
               key={index}
               href={subItem.href}

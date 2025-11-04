@@ -6,7 +6,7 @@ import "swiper/css"
 import { partnersData } from "@/app/api/data";
 
 const Companies: React.FC = () => {
-    const swiperRef = useRef<any>(null);
+    const swiperRef = useRef<{ autoplay?: { stop: () => void; start: () => void } }>(null);
     const duplicatedData = [...partnersData, ...partnersData, ...partnersData];
     
     return (

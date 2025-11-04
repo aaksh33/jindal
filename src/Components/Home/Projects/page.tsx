@@ -9,7 +9,7 @@ import { Icon } from "@iconify/react"
 import Image from "next/image"
 
 const Projects: React.FC = () => {
-    const swiperRef = useRef<any>(null);
+    const swiperRef = useRef<{ autoplay?: { stop: () => void; start: () => void } }>(null);
 
     return (
         <section className="bg-gradient-to-br from-slate-50 to-green-50 overflow-hidden py-16 lg:py-20">
