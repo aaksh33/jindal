@@ -156,7 +156,7 @@ export default function ServiceDetails() {
                                     We provide end-to-end solar energy solutions designed to help you achieve energy independence and reduce your carbon footprint. Our experienced team handles everything from initial consultation to system commissioning and ongoing support.
                                 </p>
                                 <p className="text-gray-600 mb-6 leading-relaxed">
-                                    From residential rooftop installations to large-scale commercial solar farms, we're committed to delivering high-quality solar solutions that maximize your energy savings and environmental impact.
+                                    From residential rooftop installations to large-scale commercial solar farms, we&apos;re committed to delivering high-quality solar solutions that maximize your energy savings and environmental impact.
                                 </p>
 
                                 {/* Q&A Section */}

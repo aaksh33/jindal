@@ -74,7 +74,7 @@ export default function PortfolioDetails() {
                         Rajasthan Solar Park - 250MW
                     </h1>
                     <p className="text-white/90 mt-4 text-lg lg:text-xl max-w-3xl mx-auto leading-relaxed">
-                        India's largest solar installation project featuring advanced photovoltaic technology, generating clean electricity for over 200,000 homes.
+                        India&apos;s largest solar installation project featuring advanced photovoltaic technology, generating clean electricity for over 200,000 homes.
                     </p>
                     <Link
                         href="/contact"
@@ -114,7 +114,7 @@ export default function PortfolioDetails() {
                                     Project Overview and Implementation Process
                                 </h2>
                                 <p className="text-gray-600 mb-6 leading-relaxed">
-                                    The Rajasthan Solar Park represents India's commitment to renewable energy leadership. Spanning 1,000 acres in the Thar Desert, this 250MW installation showcases advanced photovoltaic technology and innovative engineering solutions designed to withstand extreme desert conditions.
+                                    The Rajasthan Solar Park represents India&apos;s commitment to renewable energy leadership. Spanning 1,000 acres in the Thar Desert, this 250MW installation showcases advanced photovoltaic technology and innovative engineering solutions designed to withstand extreme desert conditions.
                                 </p>
                                 <p className="text-gray-600 mb-6 leading-relaxed">
                                     The implementation process involved comprehensive site analysis, environmental impact assessment, and strategic planning phases. Our engineering team deployed state-of-the-art solar panels, inverters, and monitoring systems while ensuring minimal environmental disruption and maximum energy output efficiency.
@@ -149,7 +149,7 @@ export default function PortfolioDetails() {
                                     Our Project Results and Environmental Impact
                                 </h2>
                                 <p className="text-gray-600 mb-6 leading-relaxed">
-                                    The successful completion of the Rajasthan Solar Park has delivered exceptional results for India's renewable energy sector. The facility generates 500 GWh of clean electricity annually, powering over 200,000 homes and significantly contributing to the nation's carbon reduction goals.
+                                    The successful completion of the Rajasthan Solar Park has delivered exceptional results for India&apos;s renewable energy sector. The facility generates 500 GWh of clean electricity annually, powering over 200,000 homes and significantly contributing to the nation's carbon reduction goals.
                                 </p>
                                 <p className="text-gray-600 mb-6 leading-relaxed">
                                     Through innovative engineering and strategic implementation, we achieved remarkable environmental benefits including 400,000 tons of CO2 emission reduction annually, created 500+ local jobs, and established a model for future large-scale solar installations across India.
