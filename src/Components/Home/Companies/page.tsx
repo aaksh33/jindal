@@ -29,8 +29,8 @@ const Companies: React.FC = () => {
                 <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-gray-50 to-transparent z-10 pointer-events-none"></div>
                 
                 <div 
-                    onMouseEnter={() => swiperRef.current?.autoplay?.stop()}
-                    onMouseLeave={() => swiperRef.current?.autoplay?.start()}
+                    onMouseEnter={() => swiperRef.current?.swiper?.autoplay?.stop()}
+                    onMouseLeave={() => swiperRef.current?.swiper?.autoplay?.start()}
                 >
                     <Swiper
                         ref={swiperRef}
@@ -51,8 +51,8 @@ const Companies: React.FC = () => {
                             <SwiperSlide key={index} className="!w-auto">
                                 <div 
                                     className="bg-white rounded-2xl p-6 mx-2 min-w-[200px] h-28 flex items-center justify-center cursor-pointer border border-gray-100 hover:shadow-lg transition-all duration-300"
-                                    onMouseEnter={() => swiperRef.current?.autoplay?.stop()}
-                                    onMouseLeave={() => swiperRef.current?.autoplay?.start()}
+                                    onMouseEnter={() => swiperRef.current?.swiper?.autoplay?.stop()}
+                                    onMouseLeave={() => swiperRef.current?.swiper?.autoplay?.start()}
                                 >
                                     <div className="text-center">
                                         <div className="text-3xl lg:text-4xl mb-2">
